@@ -1,0 +1,95 @@
+.trainers-section {
+  background-color: var(--color-surface);
+  position: relative;
+}
+
+.trainers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.trainer-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.trainer-image-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3/4;
+  overflow: hidden;
+}
+
+.trainer-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  filter: grayscale(0.5);
+}
+
+.trainer-card:hover .trainer-img {
+  transform: scale(1.05);
+  filter: grayscale(0);
+}
+
+.trainer-social {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  opacity: 0;
+  transform: translateX(20px);
+  transition: all 0.3s ease;
+}
+
+.trainer-card:hover .trainer-social {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.trainer-social a {
+  background-color: var(--color-accent);
+  color: var(--color-text-inverse);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.trainer-social a:hover {
+  background-color: var(--color-accent-hover);
+}
+
+.trainer-info {
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 8px 8px 0 0;
+  margin-top: -30px;
+  position: relative;
+  z-index: 2;
+}
+
+.trainer-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.trainer-info h4 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.trainer-info p {
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
