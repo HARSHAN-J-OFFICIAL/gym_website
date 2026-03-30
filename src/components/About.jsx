@@ -41,12 +41,12 @@ const About = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <div className="section-header-inline">
-            <h4 className="accent-text">About DCAMP</h4>
+            <h4 className="accent-text">About GYM</h4>
             <h2>More Than Just A Gym</h2>
           </div>
           
           <p className="about-description">
-            We don't just sell memberships; we sell <strong>results</strong>. At DCAMP, we believe in transformation through discipline, hard work, and a community that pushes you to your absolute limits.
+            We don't just sell memberships; we sell <strong>results</strong>. At GYM, we believe in transformation through discipline, hard work, and a community that pushes you to your absolute limits.
           </p>
           <p className="about-description">
             Whether your goal is to lose weight, build muscle, or simply become the strongest version of yourself, our dedicated coaches and state-of-the-art facility are here to make it happen.

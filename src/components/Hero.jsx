@@ -27,7 +27,7 @@ const Hero = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
-            <span className="accent-text">Transform</span> Your Body<br/> at DCAMP
+            <span className="accent-text">Transform</span> Your Body<br/> at GYM
           </motion.h1>
           
           <motion.p

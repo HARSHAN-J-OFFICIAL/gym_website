@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="container nav-container">
         <a href="#home" className="nav-logo">
           <Dumbbell className="logo-icon" size={32} color="var(--color-accent)" />
-          <span>DCAMP</span>
+          <span>GYM</span>
         </a>
 
         {/* Desktop Menu */}

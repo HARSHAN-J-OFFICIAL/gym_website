@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer-brand">
           <a href="#home" className="footer-logo">
             <Dumbbell className="logo-icon" size={32} color="var(--color-accent)" />
-            <span>DCAMP</span>
+            <span>GYM</span>
           </a>
           <p className="footer-desc">
             The ultimate destination for serious fitness enthusiasts. We provide the equipment, the plan, and the motivation to help you achieve your goals.
@@ -58,7 +58,7 @@ const Footer = () => {
       
       <div className="footer-bottom">
         <div className="container">
-          <p>&copy; {new Date().getFullYear()} DCAMP Fitness. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} GYM Fitness. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

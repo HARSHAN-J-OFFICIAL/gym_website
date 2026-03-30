@@ -40,7 +40,7 @@ const Contact = () => {
               <Mail className="info-icon" size={24} />
               <div>
                 <h4>Email</h4>
-                <p>join@dcampgym.com<br/>support@dcampgym.com</p>
+                <p>join@gym.com<br/>support@gym.com</p>
               </div>
             </div>
           </div>

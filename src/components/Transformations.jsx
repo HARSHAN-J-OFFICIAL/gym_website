@@ -8,7 +8,7 @@ const Transformations = () => {
       name: "Marcus T.",
       stats: "Lost 12kg in 3 months",
       image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=1470&auto=format&fit=crop",
-      quote: "DCAMP gave me the discipline I needed. I'm faster, stronger, and in the best shape of my life."
+      quote: "GYM gave me the discipline I needed. I'm faster, stronger, and in the best shape of my life."
     },
     {
       name: "Sarah J.",

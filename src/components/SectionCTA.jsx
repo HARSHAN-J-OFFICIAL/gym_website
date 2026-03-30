@@ -15,9 +15,9 @@ const SectionCTA = () => {
           viewport={{ once: true, margin: "-100px" }}
         >
           <h2>Ready To Transform Your Body?</h2>
-          <p>The hardest step is the first one. Let us guide you through the rest. Join DCAMP today and get started on your fitness journey.</p>
+          <p>The hardest step is the first one. Let us guide you through the rest. Join GYM today and get started on your fitness journey.</p>
           <a href="#contact" className="btn btn-primary cta-btn">
-            Join DCAMP Today <ArrowRight className="btn-icon" size={20} />
+            Join GYM Today <ArrowRight className="btn-icon" size={20} />
           </a>
         </motion.div>
       </div>

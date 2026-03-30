@@ -8,7 +8,7 @@ const Testimonials = () => {
     {
       name: "Michael R.",
       role: "Member for 1 year",
-      content: "I've tried 5 different gyms. DCAMP is the only one that actually pushed me past my plateau. The energy here is contagious.",
+      content: "I've tried 5 different gyms. GYM is the only one that actually pushed me past my plateau. The energy here is contagious.",
       rating: 5
     },
     {
